@@ -1,0 +1,8 @@
+h1 Show Playlist
+video#vid1.video-js.vjs-default-skin controls="" preload="auto" autoplay='true' src="" height="560" width="100%"
+br
+  = link_to 'Back', videos_path, data: {'no-turbolink': true}
+= content_for :js
+  = include_gon
+  = javascript_include_tag '//vjs.zencdn.net/4.12/video.js'
+  = javascript_include_tag 'show_playlist'

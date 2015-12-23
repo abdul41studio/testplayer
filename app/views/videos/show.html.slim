@@ -1,0 +1,22 @@
+div
+  p#notice = notice
+
+  p
+    strong Name:
+    = @video.name
+  p
+    strong File:
+    video#vid1.video-js.vjs-default-skin controls="" preload="auto" autoplay='true' src="" height="560"
+    / video#my-video.video-js.vjs-default-skin controls="" data-setup='{}' height="560" preload="auto" width="100%"
+      / source src="#{@video.file}" type="video/mp4"
+
+  = link_to 'Edit', edit_video_path(@video)
+  '|
+  = link_to 'Back', videos_path
+
+= content_for :js
+  = include_gon
+  = javascript_include_tag '//vjs.zencdn.net/4.12/video.js'
+  = javascript_include_tag 'load_video'
+  = javascript_include_tag 'videojs-overlay.js'
+
