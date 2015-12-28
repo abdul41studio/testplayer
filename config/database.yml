@@ -84,5 +84,6 @@ test:
 production:
   <<: *default
   database: testplayer_production
-  username: testplayer
-  password: <%= ENV['TESTPLAYER_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: 123456
+  # password: <%= ENV['TESTPLAYER_DATABASE_PASSWORD'] %>

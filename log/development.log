@@ -11004,3 +11004,56 @@ ActionController::RoutingError (No route matches [POST] "/abdultv/refresh_answer
 
   Rendered /home/cybergarage/.rvm/gems/ruby-2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
   Rendered /home/cybergarage/.rvm/gems/ruby-2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (8.5ms)
+
+
+Started GET "/videos" for 127.0.0.1 at 2015-12-28 18:35:03 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"
+  Rendered videos/index.html.slim within layouts/application (14.6ms)
+Completed 200 OK in 129ms (Views: 117.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/videojs-overlay.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/load_video.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/show_playlist.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/videojs-overlay.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-28 18:35:04 +0700
